@@ -1,0 +1,23 @@
+Chinese checkers can be played by up to 6 players. However, we will implement only a 2 players game
+version for this project. The game board is basically a star with six edges. Each edge contains a different
+colored set of 10 marbles as seen in the above picture. The first player will own three colored sets and the
+second player will own the remaining three colored sets.
+For example:
+● Player 1 will own Green, Blue and Purple sets
+● Player 2 will own Red, Orange and Yellow sets
+
+The object of the Chinese checkers is to get all of your marbles to the opposite point of the star. The first
+player to do this wins.
+For example, For player 1 to win:
+1. He must move all green marbles to the other opposite side of the star (Replacing red marbles).
+2. He must move all blue marbles to the other opposite side of the star(Replacing orange marbles)
+3. He must move all purble marbles to the other opposite side of the star(Replacing yellow purple
+marbles)
+How the game goes on
+Players take turns moving their pieces across the board. During a player’s turn:
+1. They can move their piece to any adjacent empty hole
+
+2. A player’s piece can also hop over an adjacent piece, into an empty hole. That piece can be their
+own colored piece or the opponent piece. The player can continually hop over subsequent pieces
+during that turn, and in any direction, as long as there are empty holes on the other side of those
+pieces
